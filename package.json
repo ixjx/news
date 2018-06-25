@@ -1,7 +1,7 @@
 {
   "name": "news",
   "version": "1.0.0",
-  "description": "A Vue.js project for baidu top news",
+  "description": "A Vue.js project",
   "author": "ixjx <vissky1@163.com>",
   "private": true,
   "scripts": {
