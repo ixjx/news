@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import News from '@/components/News'
+import Baidu from '@/components/Baidu'
+import Sina from '@/components/Sina'
 
 Vue.use(Router)
 
@@ -8,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'baidu top news',
-      component: News
+      name: 'news',
+      component: Baidu,Sina
     }
   ]
 })

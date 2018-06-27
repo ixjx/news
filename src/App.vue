@@ -1,15 +1,18 @@
 <template>
   <div id="app">
-    <news></news>
+    <baidu></baidu>
+    <sina></sina>
   </div>
 </template>
 
 <script>
-import News from './components/News'
+import Baidu from './components/Baidu'
+import Sina from './components/Sina'
 export default {
   name: 'App',
   components: {
-    News
+    Baidu,
+    Sina
   }
 }
 </script>
