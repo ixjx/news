@@ -39,10 +39,16 @@ $(function(){
   color: #2c3e50;
 }
 
-#tabs li {
-  width: 49.6%;
+#tabs>ul {
+  white-space:nowrap;
 }
-#tabs li a {
+#tabs>ul li {
+  display:inline-block;
+  float: none;
+  width: 50%;
+  margin: 0 -0.1em;
+}
+#tabs>ul li a {
   width: 100%;
   text-align: center;
 }
