@@ -39,6 +39,9 @@ $(function(){
   color: #2c3e50;
 }
 
+ul {
+  list-style-type:none;
+}
 #tabs>ul {
   white-space:nowrap;
 }
@@ -54,5 +57,8 @@ $(function(){
 }
 .ui-widget-content a {
   color: #003eff
+}
+.ui-widget {
+  font-family: '微软雅黑', Helvetica, Arial, sans-serif;
 }
 </style>
