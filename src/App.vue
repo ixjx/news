@@ -55,6 +55,10 @@ ul {
   width: 100%;
   text-align: center;
 }
+.news ul {
+  margin: 0 -3.5em;
+}
+
 .ui-widget-content a {
   color: #003eff
 }
