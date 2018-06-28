@@ -27,4 +27,4 @@ npm run e2e
 npm test
 ```
 
-基于nodejs的百度新闻爬虫，这是vue.js写的前端
+基于nodejs的热点新闻爬虫，这是vue.js写的前端
