@@ -52,7 +52,7 @@ ul {
   margin: 0 -0.1em;
 }
 #tabs>ul li a {
-  width: 100%;
+  width: 95%;
   text-align: center;
 }
 .news ul {
