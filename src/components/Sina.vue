@@ -2,7 +2,7 @@
   <div class="news">
     <ul>
       <li v-for="news in arrs">
-        热度:{{news.index}} &nbsp; {{news.title}} <a :href=news.url target="_blank">浏览</a>
+        &nbsp; {{news.title}} &nbsp;<a :href=news.url target="_blank">浏览</a>
       </li>
         
     </ul>
@@ -18,7 +18,7 @@ export default {
     }
   },
   mounted: function(){
-    this.$http.get('http://117.59.6.29/api/sina', {}, {
+    this.$http.get('http://47.107.40.88/api/sina', {}, {
     headers: {
 
     },

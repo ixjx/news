@@ -1,6 +1,6 @@
 # news
 
-> A Vue.js project for baidu top news
+> A Vue.js project for sina/baidu top news
 
 ## Build Setup
 
@@ -27,4 +27,6 @@ npm run e2e
 npm test
 ```
 
-基于nodejs的热点新闻爬虫，这是vue.js写的前端
+~~基于nodejs的热点新闻爬虫，这是vue.js写的前端~~
+
+使用python重构后端
