@@ -2,7 +2,7 @@
   <div class="news">
     <ul>
       <li v-for="news in arrs">
-        &nbsp; {{news.title}} &nbsp;<a :href=news.url target="_blank">浏览</a>
+        {{news.index}} &nbsp; {{news.title}} &nbsp;<a :href=news.url target="_blank">浏览</a>
       </li>
         
     </ul>
